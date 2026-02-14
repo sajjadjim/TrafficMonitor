@@ -9,8 +9,7 @@
 
 # TrafficMonitor 简介
 
-Traffic Monitor是一款用于Windows平台的网速监控悬浮窗软件，可以显示当前网速、CPU及内存利用率，支持嵌入到任务栏显示，支持更换皮肤、历史流量统计等功能。
-
+Traffic Monitor is a floating window software for monitoring network speed on the Windows platform. It can display the current network speed, CPU and memory utilization, and can be embedded in the taskbar. It also supports changing skins and historical traffic statistics.
 # 相关链接：
 
 请[点击此处](https://github.com/zhongyang219/TrafficMonitor/releases/latest)下载TrafficMonitor的最新版本。
@@ -23,16 +22,14 @@ Traffic Monitor是一款用于Windows平台的网速监控悬浮窗软件，可�
 
 你也可以[点击此处](https://github.com/zhongyang219/TrafficMonitor/actions?query=workflow:"Release+CI")下载TrafficMonitor的预发行构建版本。
 
-从1.80版本开始，TrafficMonitor加入了温度监控功能，如果你不需要温度监控功能，并且在使用1.80以上版本中遇到了问题，建议下载不含温度监控的版本（Lite版本）。（在Release页面找到文件名包含`Lite`的版本。）
-
+Starting with version 1.80, TrafficMonitor added temperature monitoring functionality. If you don't need temperature monitoring and are experiencing issues with versions 1.80 and above, it's recommended to download a version without temperature monitoring (the Lite version). (Find the version with `Lite` in its filename on the Release page.)
 TrafficMonitor依赖于Microsoft Visual C++ 运行环境，如果程序启动时提示“找不到MSVC*.dll”，请点击以下链接下载并安装Microsoft Visual C++ 运行环境。
 
 [最新支持的 Visual C++ 可再发行程序包下载 | Microsoft Docs](https://docs.microsoft.com/zh-CN/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
 # 版本说明
 
-TrafficMonitor提供了标准版和Lite版两种版本可用。标准版包含了所有的功能，Lite版本则不包含温度监控、显卡利用率、硬盘利用率等硬件监控功能。标准版运行需要管理员权限，而Lite版本则不需要。
-
+TrafficMonitor is available in two versions: Standard and Lite. The Standard version includes all features, while the Lite version does not include hardware monitoring functions such as temperature monitoring, GPU utilization, and hard drive utilization. The Standard version requires administrator privileges to run, while the Lite version does not.
 如果没有监控温度等硬件信息的需要，建议使用Lite版。
 
 以下是两个版本功能对比。
@@ -52,15 +49,14 @@ TrafficMonitor提供了标准版和Lite版两种版本可用。标准版包含�
 
 # 主要特性
 
-* 显示当前实现网络传输速率、CPU和内存占用率
-* 如果电脑有多个网卡，支持自动和手动选择网络连接
-* 查看网络详细信息
-* 支持嵌入到任务栏显示
-* 支持更换皮肤和自定义皮肤
-* 历史流量统计
-* 硬件信息监控
-* 插件系统
-# 使用说明
+Displays current network transmission rate, CPU and memory usage. 
+* Supports automatic and manual network connection selection if the computer has multiple network cards.
+* View detailed network information.
+* Supports embedding into the taskbar.
+* Supports changing and customizing skins.
+* Historical traffic statistics.
+* Hardware information monitoring.
+* Plugin system. # Instructions for Use
 
 **[点击这里](https://github.com/zhongyang219/TrafficMonitor/wiki)转到Wiki页面查看关于TrafficMonitor的详细说明文档。**
 
